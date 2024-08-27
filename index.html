@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+   <header class="cabecalho">
+     <img class="cabecalho__imagem" src="/assets/Logo linecode.png" alt="Logo Line.code">
+     <h1 class="cabecalho__titulo">Decodificador de Mensagem Secreta</h1>
+   </header>
+
+   <main >
+    <section class="container__input" >
+      <textarea id="inputTexto" name="inputTexto" placeholder="Digite seu texto"></textarea>
+
+    <div class="atencao"> 
+      <img class="icon__atencao" src="/assets/atencao.png"> 
+      <h4>Apenas letras minúsculas e sem acento.</h4>
+    </div>  
+
+    <div class="botoes">
+      <button class="btn__criptografar" type="button" id="cripto">Criptografar</button>
+      <button class="btn__descriptografar"type="button" id="decripto">Descriptografar</button>
+    </div>
+    </section>
+
+    <section class="container__output">
+      <div class="output" id="output">
+        <img id= "imagem__codigo" src="/assets/código.jpg" alt="código com cadeado"> 
+        <h2 class="outputTexto__h2">Nenhuma mensagem encontrada</h2>
+        <h3 class="outputTexto__h3">Digite um texto que você deseja criptografar ou descriptografar.</h3>
+      </div>
+      
+      <button class="btn__copiar escondido" id="copyButton" type="button">Copiar</button>
+    </section>
+   </main>
+  
+   
+   <footer class="rodape">
+     <div class="icons">
+      <a href="https://github.com/linerabech">
+       <img  class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+      </a>
+      <a href="https://www.linkedin.com/in/alinerabech/">
+        <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" />
+    </div>
+
+    <h3> Desenvolvido por Aline Rabech</h3>
+     
+   </footer>
+</body>
+</html>
